@@ -1,8 +1,14 @@
-function MainApp() {
+import React from 'react';
+import FirstComponent from './FirstComponent';
+import NamedComponent from './NamedComponent';
+
+function App() {
   return (
     <div>
-      <MyComponent />
-      <GreetUser name="John" />
+      <FirstComponent />
+      <NamedComponent name="Bob" />
     </div>
   );
 }
+
+export default App;
