@@ -1,4 +1,6 @@
-function MyTweet(props) {
+import React from 'react';
+
+function Tweet(props) {
   return (
     <div className="tweet">
       <span>{props.name}</span>
@@ -8,3 +10,5 @@ function MyTweet(props) {
     </div>
   );
 }
+
+export default Tweet;
